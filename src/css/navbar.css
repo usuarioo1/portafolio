@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    /* Puedes reemplazar esto con tu color de fondo preferido */
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    color: white; /* Puedes personalizar el color del texto */
+    text-decoration: none;
+    font-size: 18px; /* Aumenté el tamaño de la fuente */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #ffc107;
+    /* Cambia el color al pasar el mouse para que sea más interactivo */
+}
